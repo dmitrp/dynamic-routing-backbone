@@ -1,0 +1,5 @@
+[
+  {"id": "some-table", "title": "some Table", "order": 0, "path": "tabs-data/some-table.js"},
+  {"id": "some-chart", "title": "some Chart", "order": 1, "path": "tabs-data/some-chart.js"},
+  {"id": "some-list", "title": "some List", "order": 2, "path": "tabs-data/some-list.js"}
+]
