@@ -1,5 +1,6 @@
 # Dynamic Routing
 Sample of dynamic routing using Backbone.js
+Try it [here](http://dmitrp.github.io/dynamic-routing-backbone)
 
 # How to use
 Place your view and JSON config file for tabs in tabs-data folder.
