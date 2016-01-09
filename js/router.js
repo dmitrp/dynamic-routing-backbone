@@ -36,8 +36,9 @@ define([
         });
     }
 
-    function initHeader() {
+    function initHeader(data, appRouter) {
         var headerView = new header();
+        headerView.initialize(data, appRouter);
         headerView.render();
     }
 
@@ -48,7 +49,7 @@ define([
             }))();
 
             setRoutes(data, appRouter);
-            initHeader();
+            initHeader(data, appRouter);
             Backbone.history.start();
         });
     }
